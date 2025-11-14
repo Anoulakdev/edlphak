@@ -60,7 +60,7 @@ $conn->close();
                     <div class="card">
                         <div class="card-body">
 
-                            <h4 class="my-4"><i class="bi bi-asterisk"></i> ​ສະ​ແກນເລກ​ທີ່​ໃບ​ລົງ​ຄະ​ແນນ ໃສ່​ຫ້ອງ​ທາງ​ລຸ່ມ</h4>
+                            <h4 class="my-4"><i class="bi bi-asterisk"></i> ​ເລກ​ທີ່​ໃບ​ລົງ​ຄະ​ແນນ ໃສ່​ຫ້ອງ​ທາງ​ລຸ່ມ</h4>
 
                             <form class="row g-3" action="s_action" method="post" id="scanForm">
                                 <input type="hidden" name="m_id" value="<?= $_SESSION['m_id']; ?>">
@@ -72,7 +72,7 @@ $conn->close();
                                     <br>
                                     <br>
                                     <div class="col-12">
-                                        <h4><i class="bi bi-asterisk"></i> <?= $kill ?> ສ​ະ​ຫາຍທີ່​ທ່ານບໍ່​ເລືອກເອົາ</h4>
+                                        <h4><i class="bi bi-asterisk"></i> <?= $kill ?> ສ​ະ​ຫາຍທີ່​ທ່ານ​ເລືອກເອົາ</h4>
                                         <?php
                                         for ($i = 1; $i <= $kill; $i++) {
                                             echo '<input type="text" name="nc_id[]" id="nc_id_' . $i . '" class="form-control mb-3" maxlength="2" placeholder="ຜູ້​ທີ່ ' . $i . '" required>';
